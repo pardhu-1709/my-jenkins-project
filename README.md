@@ -5,10 +5,12 @@ It shows how a web application can be automatically built, deployed on **Tomcat*
 
 ---
 
+# My Project
+
 ## Project Overview
-- **Build Automation**: Jenkins pipelines build your project automatically.
-- **Artifact Deployment**: Deploy `.war` or other artifacts to Tomcat server.
-- **S3 Storage**: Artifacts are stored in AWS S3 for backup or distribution.
+- **Build Automation:** I use Jenkins pipelines to automatically build my project.  
+- **Artifact Deployment:** The `.war` artifact is deployed directly to my Tomcat server.  
+- **S3 Storage:** The artifact is backed up and distributed via AWS S3.  
 
 ---
 
@@ -57,7 +59,6 @@ It shows how a web application can be automatically built, deployed on **Tomcat*
 ## Notes
 - Ensure AWS credentials are configured in Jenkins to allow S3 access.
 - Tomcat must be running and reachable for deployment.
-- All files and screenshots are included in the repository for reference.
 
 ---
 
