@@ -13,6 +13,14 @@ It shows how a web application can be automatically built, deployed on **Tomcat*
 ---
 
 ## Architecture
+- GitHub → Source code  
+- Jenkins → CI/CD pipeline  
+- Maven → Build tool (creates WAR file)  
+- Tomcat → Deploys application  
+- Browser → Access application  
+- AWS S3 → Stores artifact  
+
+---
 
 ### 1️⃣ Application Path
 ![Application Path](https://github.com/pardhu-1709/my-jenkins-project/blob/main/application%20path.png)  
