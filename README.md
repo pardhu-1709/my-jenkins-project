@@ -5,8 +5,6 @@ It shows how a web application can be automatically built, deployed on **Tomcat*
 
 ---
 
-# My Project
-
 ## Project Overview
 - **Build Automation:** I use Jenkins pipelines to automatically build my project.  
 - **Artifact Deployment:** The `.war` artifact is deployed directly to my Tomcat server.  
