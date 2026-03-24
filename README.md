@@ -1,4 +1,4 @@
-# my-jenkins-project
+# My-Jenkins-Project
 
 This project demonstrates **building and deploying artifacts using Jenkins**, and storing them in **AWS S3**.  
 It shows how a web application can be automatically built, deployed on **Tomcat**, and backed up to S3.
@@ -46,12 +46,12 @@ It shows how a web application can be automatically built, deployed on **Tomcat*
 
 ---
 
-## How to Use
+## Cicd Pipeline Implimentation using Jenkins, Tomcat and Aws S3
 1. Configure Jenkins and create a pipeline.
-2. Connect your GitHub repository to Jenkins.
+2. Connect to GitHub repository to Jenkins.
 3. Build the project using the Jenkins job.
 4. Deploy the artifact to Tomcat server.
-5. Check the application running on your web browser.
+5. Check the application running on web browser.
 6. Confirm the artifact is saved in S3.
 
 ---
